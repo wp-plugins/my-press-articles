@@ -1,9 +1,9 @@
 === my press articles ===
 Contributors: Gadgets Choose
-Tags: wordpress, Post, plugin, posts, admin, content, twitter, sidebar
+Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2
 
 my press articles is a plugin which will help you to get more readers to read your article once you have tweetted it on twitter.
@@ -36,6 +36,10 @@ Sure you can, just grab it and moves to any new location which you prefer under 
 1) Upload my press articles to your blog and activate it.
 
 == Changelog ==
+
+= 1.1 =
+
+* Bug Fixed
 
 = 1.0 =
 
