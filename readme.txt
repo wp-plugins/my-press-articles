@@ -2,7 +2,7 @@
 Contributors: Gadgets Choose
 Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog
 Requires at least: 2.8
-Tested up to: 3.0
+Tested up to: 3.0.4
 Stable tag: 1.1
 License: GPLv2
 
