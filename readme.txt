@@ -10,10 +10,9 @@ my press articles is a plugin which will help you to get more readers to read yo
 
 == Description ==
 
-An easy to use plugins which lets the blogger to tweet their article after they have published it. Once their article is out there, then it will reach out for those users that use this plugin, therefore, this is a great tool for those bloggers that need more readers to read their blog online. For more details on how to use this plugin, watch the video b 
-low
+An easy to use plugins which lets the blogger to tweet their article after they have published it. Once their article is out there, then it will reach out for those users that use this plugin, therefore, this is a great tool for those bloggers that need more readers to read their blog online. For more details on how to use this plugin, watch the below video.
 
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="390" height="350" src="http://www.youtube.com/embed/6vq_PWi_aWY?rel=0&amp;hd=1" frameborder="0" allowFullScreen></iframe>
+[youtube http://www.youtube.com/watch?v=6vq_PWi_aWY]
 
 == Frequently Asked Questions == 
 
