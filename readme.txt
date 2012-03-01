@@ -1,43 +1,45 @@
 === my press articles ===
 Contributors: Gadgets Choose
-Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog
+Donate link: http://todayprofits.gadgets-code.com/donation-page/
+Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog, shortcode, Google+, Tumblr, Facebook 
 Requires at least: 2.8
-Tested up to: 3.0.4
-Stable tag: 1.1
+Tested up to: 3.3.1
+Stable tag: 1.2
 License: GPLv2
 
-my press articles is a plugin which will help you to get more readers to read your article once you have tweetted it on twitter.
+my press articles is all about short codes that are related to social network, youtube, google map, url and many more.
 
 == Description ==
 
-An easy to use plugins which lets the blogger to tweet their article after they have published it. Once their article is out there, then it will reach out for those users that use this plugin, therefore, this is a great tool for those bloggers that need more readers to read their blog online. For more details on how to use this plugin, watch the below video.
-
-[youtube http://www.youtube.com/watch?v=6vq_PWi_aWY]
+An easy and simple to use plugins, you will use short codes to render all types of cool stuff from social sharing buttons, google map, youtube, show and hide part of the content based on where the visitors come from and many more.
 
 == Frequently Asked Questions == 
 
 = How to use this plugin? =
  
-1) After you have published your article, tweet it using the tweet button on the sidebar of the edit post panel. 2) You can change the title of your post and add in more text but please leave the text before your post title as well as the link untouched or else your tweet will not show up on your own dashboard.     
+Follow the how to tutorial on my blog carefully and you will master how to use each short code within minutes.    
 
-= How can I get more blog readers with this plugin? = 
+= Is this plugin all about short code? = 
 
-Once you have tweetted your new article on twitter, all those bloggers that use this plugin will see your article on their own admin dashboard, and thus will help 
-you to make more friends and get more readers.
+Yes it is, this plugin is all about short codes and more short codes will be added in every time a new version comes out. 
 
-= How many new tweets will appear on my admin dashboard? = 
+= What type of short codes are there? = 
 
-Only three, the latest three.
+google map, youtube video, social sharing buttons, hide and show content and many more new features will be added in from time to time.
 
-= Can I change the location of this dashboard widget? =
+= Are you planning to change the direction of this plugin in the future? =
 
-Sure you can, just grab it and moves to any new location which you prefer under your admin dashboard.  
+No, I had made a change once already and will not change anymore, this is the plugin which will only dealing with shortcodes in the future.
 
 == Installation ==
 
 1) Upload my press articles to your blog and activate it.
 
 == Changelog ==
+
+= 1.2 =
+
+* Include in 4 new shortcodes and delete the old code
 
 = 1.1 =
 
