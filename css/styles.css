@@ -1,0 +1,20 @@
+/* =css file for future use in plugin
+-------------------------------------------------------------- */
+p {
+  margin:0; padding:0; border:0;
+}
+h2 {
+  color:#302217;
+  margin-left:3px;
+}
+h3 {
+  color:#827839;
+  margin-left:3px;
+}
+a {
+  text-decoration:none;
+}
+img {
+  margin-left:3px;
+  margin-right:3px;
+}
