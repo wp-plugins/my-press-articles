@@ -3,7 +3,7 @@
 Plugin Name: my press articles
 Plugin URI: http://gadgets-code.com/tutorial-1-my-press-articles-how-to-embed-a-google-map-on-your-wordpress-post/
 Description: Use shortcodes in your post to render Google Map, Twitter, Facebook and Youtube related services.
-Version: 1.2
+Version: 1.3
 Author: Gadgets Choose
 Author URI: http://wordpress.org/extend/plugins/my-press-articles/
 License: GPLv2
