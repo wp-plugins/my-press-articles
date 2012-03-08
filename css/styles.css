@@ -1,20 +1,32 @@
-/* =css file for future use in plugin
+/* =css for google map overlay elements
 -------------------------------------------------------------- */
-p {
-  margin:0; padding:0; border:0;
+#mypressback-map-ground {
+  display:none;
+  position:fixed;
+  background-color:#ffffff;
+  opacity:0.9;
+  filter:alpha(opacity=30);
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
 }
-h2 {
+
+#mypress-panel {
+  display:none;
+  position:fixed;
+  top:25%;
+  left:33%;
   color:#302217;
-  margin-left:3px;
+  background-color:#ffffff;
+  padding:3px 3px 3px 3px;
+  z-index:1001;
 }
-h3 {
-  color:#827839;
-  margin-left:3px;
-}
-a {
+
+#mypress-panel a#close-panel {
+  float:right;
   text-decoration:none;
-}
-img {
-  margin-left:3px;
-  margin-right:3px;
+  background-color:#ffffff;
+  color:#804000;
 }
