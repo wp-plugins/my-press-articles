@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: my press articles
-Plugin URI: http://gadgets-code.com/my-press-articles-tutorial-5-embed-a-google-map-with-clickable-marker
+Plugin URI: http://gadgets-code.com/tutorial-1-my-press-articles-how-to-embed-a-google-map-on-your-wordpress-post/
 Description: Use shortcodes in your post to render Google Map, Twitter, Facebook and Youtube related services.
-Version: 1.4
+Version: 1.5
 Author: Gadgets Choose
 Author URI: http://wordpress.org/extend/plugins/my-press-articles/
 License: GPLv2
@@ -220,25 +220,6 @@ function show_hide_content($attrs,$content=null) {
   }
 }
 add_shortcode("showContent","show_hide_content");
-
-add_action( 'wp_dashboard_setup', 'gadget_dashboard_feed' );
-function gadget_dashboard_feed() {
-     wp_add_dashboard_widget( 'dashboard_gadget_new', 'Developer News', 'gadget_dashboard_new');
-}
-function gadget_dashboard_new() {
-     $gadgets_rss_feed = 'http://feeds2.feedburner.com/gadgets-code/bSHq';
-     //show developer RSS feed
-     echo '<div class="rss-widget">';
-     wp_widget_rss_output( array(
-      'url' => $gadgets_rss_feed,
-      'title' => 'Developer News',
-      'items' => 1,
-      'show_summary' => 1,
-      'show_author' => 0,
-      'show_date' => 1
-     ) );
-     echo '</div>';
-}
 
 //include stylesheet code can be found in http://codex.wordpress.org
 

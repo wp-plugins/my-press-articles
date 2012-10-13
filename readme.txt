@@ -1,10 +1,10 @@
 === my press articles ===
 Contributors: Gadgets Choose
 Donate link: http://todayprofits.gadgets-code.com/donation-page/
-Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog, shortcode, Google+, Tumblr, Facebook, image, images 
+Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog, shortcode, Google+, Tumblr, Facebook, image, images, google 
 Requires at least: 2.8
-Tested up to: 3.3.1
-Stable tag: 1.4
+Tested up to: 3.5
+Stable tag: 1.5
 License: GPLv2
 
 my press articles is all about short codes that are related to social network, youtube, google map, url and many more.
@@ -36,6 +36,10 @@ No, I had made a change once already and will not change anymore, this is the pl
 1) Upload my press articles to your blog and activate it.
 
 == Changelog ==
+
+= 1.5 =
+
+* Deleted dashboard widget
 
 = 1.4 =
 
