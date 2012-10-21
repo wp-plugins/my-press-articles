@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: my press articles
-Plugin URI: http://gadgets-code.com/tutorial-1-my-press-articles-how-to-embed-a-google-map-on-your-wordpress-post/
+Plugin URI: http://www.squidoo.com/wordpress-plugin-my-press-articles
 Description: Use shortcodes in your post to render Google Map, Twitter, Facebook and Youtube related services.
-Version: 1.5
+Version: 1.6
 Author: Gadgets Choose
 Author URI: http://wordpress.org/extend/plugins/my-press-articles/
 License: GPLv2
@@ -23,6 +23,17 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, please visit <http://www.gnu.org/licenses/>.
 */
+
+//short code to change text color
+
+function textcolor($atts, $content = null) {
+
+  extract(shortcode_atts(array("color"=>'red'),$atts));
+
+  return "<span style=\"color:$color;\">$content</span>";
+}
+
+add_shortcode("textcolor","textcolor");
 
 //short code to render social sharing buttons
 

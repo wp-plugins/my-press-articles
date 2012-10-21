@@ -4,7 +4,7 @@ Donate link: http://todayprofits.gadgets-code.com/donation-page/
 Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog, shortcode, Google+, Tumblr, Facebook, image, images, google 
 Requires at least: 2.8
 Tested up to: 3.5
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2
 
 my press articles is all about short codes that are related to social network, youtube, google map, url and many more.
@@ -21,7 +21,7 @@ Follow the how to tutorial on my blog carefully and you will master how to use e
 
 = Is this plugin all about short code? = 
 
-Yes it is, this plugin is all about short codes and more short codes will be added in every time a new version comes out. 
+Yes it is, this plugin is all about short codes and more short codes will be added in every time a new version coming out. 
 
 = What type of short codes are there? = 
 
@@ -36,6 +36,10 @@ No, I had made a change once already and will not change anymore, this is the pl
 1) Upload my press articles to your blog and activate it.
 
 == Changelog ==
+
+= 1.6 =
+
+* Include text color shortcode
 
 = 1.5 =
 
