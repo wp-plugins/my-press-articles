@@ -1,41 +1,33 @@
 === my press articles ===
 Contributors: Gadgets Choose
 Donate link: http://todayprofits.gadgets-code.com/donation-page/
-Tags: wordpress, Post, plugin, posts, Post, admin, content, twitter, sidebar, widget, dashboard, page, blog, shortcode, Google+, Tumblr, Facebook, image, images, google 
+Tags: post, plugin, posts, admin, content, LinkedIn, twitter, sidebar, widget, shortcode, Google+, Facebook, google, links, related post, social button, social buttons, social media widget, google map, sticky post, google analytics, note 
 Requires at least: 2.8
 Tested up to: 3.5
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2
 
-my press articles is all about short codes that are related to social network, youtube, google map, url and many more.
+my press articles is a all in one wordpress plugin which includes insert related posts, sticky post widget, social media widget, google map, google analytics and many more.
 
 == Description ==
 
-An easy and simple to use plugins, you will use short codes to render all types of cool stuff from social sharing buttons, google map, youtube, show and hide part of the content based on where the visitors come from and many more.
+Current features include 1) Google Analytics 2) Related Posts 3) Sticky Posts Widget 4) Social Media Widget 5) Google Map. More features will be added from time to time.
 
 == Frequently Asked Questions == 
 
 = How to use this plugin? =
  
-Follow the how to tutorial on my blog carefully and you will master how to use each short code within minutes.    
-
-= Is this plugin all about short code? = 
-
-Yes it is, this plugin is all about short codes and more short codes will be added in every time a new version coming out. 
-
-= What type of short codes are there? = 
-
-google map, youtube video, social sharing buttons, hide and show content and many more new features will be added in from time to time.
-
-= Are you planning to change the direction of this plugin in the future? =
-
-No, I had made a change once already and will not change anymore, this is the plugin which will only dealing with shortcodes in the future.
+Follow the tutorial carefully and you will master how to use it within minutes.    
 
 == Installation ==
 
 1) Upload my press articles to your blog and activate it.
 
 == Changelog ==
+
+= 1.7 =
+
+* Include Google Analytics, Social Media Widget, Related Posts, Quick Note Feature and Sticky Posts Feature
 
 = 1.6 =
 

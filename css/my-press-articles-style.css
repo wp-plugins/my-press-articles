@@ -1,0 +1,343 @@
+/* =css for option page
+-------------------------------------------------------------- */
+
+.option {
+ float:left;
+ padding:3px;
+ padding-left:6px;
+ padding-right:6px;
+ background-color:#000000;
+ width:273px;
+}
+
+.option a {
+ color:red;
+}
+
+.my_press_analytic {
+ width:300px;
+ height : 53px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypressanalytics.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_social_buttons {
+ width:300px;
+ height : 73px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypresssocial.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_recommend {
+ width:259px;
+ height : 55px;
+ margin-top:3px;
+ margin-bottom:0;
+ background-image:url('mypressrecommends.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_quick_note {
+ width:175px;
+ height : 83px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypressquicknote.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_relatred_posts_feature {
+ width:193px;
+ height : 93px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypressrelatedposts.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_header_setting {
+ width:413px;
+ height :53px;
+ margin-top:3px;
+ margin-left:auto;
+ margin-right:auto;
+ background-image:url('mypressheader.png');
+ background-repeat:no-repeat;
+}
+
+.main_mypress {
+ width:960px;
+ margin-top:0px;
+ margin-left:auto;
+ margin-right:auto;
+ display:block;
+ color: #ffffff;
+ font-weight:bold;
+}
+
+.left_mypress {
+ float:left;
+ padding-top:3px;
+ padding-left:10px;
+ width:600px;
+ background-image:url('left_rightpanel.png');
+}
+
+.right_mypress {
+ float:right;
+ padding-left:10px;
+ padding-top:3px;
+ width:300px;
+ background-image:url('left_rightpanel.png');
+}
+
+.my_press_articles_help {
+ width:300px;
+ height : 39px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypresshelp.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_articles_share_plugins {
+ width:300px;
+ height : 93px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypressshare.png');
+ background-repeat:no-repeat;
+}
+
+hr.mypress {
+ width:70%;
+ display:block;
+ margin-left:15%;
+ margin-right:15%;
+ margin-top:3px;
+ margin-bottom:3px;
+}
+
+/* =css for widget
+-------------------------------------------------------------- */
+
+.my_press_widgets_wraps {
+ background-color:#ffffff;
+ width:70%;
+ margin-top:3%;
+ margin-bottom:3%;
+ margin-left:6%;
+ margin-right:18%;
+ padding:3%;
+ height:153px;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+
+.my_press_social_widgets_wraps {
+ float:left;
+}
+
+.my_press_articles_sidebar_widgets_header {
+ width:100%;
+ height : 83px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('sharewidgetsidebar.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_articles_sticky_widgets_header {
+ width:233px;
+ height : 53px;
+ margin:3px auto 3px auto;
+ background-image:url('featureposts.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_articles_sticky_posts_header {
+ width:100%;
+ height : 55px;
+ background-image:url('stickypostheader.png');
+ background-repeat:no-repeat;
+}
+
+.my_press_articles_sticky_posts_widget {
+ clear:both;
+ display:block;
+ width:219px;
+ height:163px;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:6px;
+ margin-bottom:3px;
+ padding:3px 3px 3px 6px;
+ background-color:#666633;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+
+.my_press_articles_sticky_posts_widget:hover {
+ background-color:#000000;
+}
+
+.my_press_articles_sticky_posts_img_wraps {
+ float:left;
+ background-color:#ffffff;
+ margin-right:1px;
+ height:100px;
+ width:100px;
+ padding:3px 3px 3px 3px;
+}
+
+.my_press_articles_sticky_posts_text_wraps {
+ float:left;
+ background-color:#ffffff;
+ font-size:15px;
+ font-weight:bold;
+ width:100px;
+ height:100px;
+ padding:3px 3px 3px 3px;
+ text-align:justify;
+ overflow:hidden;
+}
+
+.my_press_articles_sticky_posts_text_wraps a {
+ text-decoration:none;
+ color:red;
+}
+
+.my_press_articles_sticky_posts_text_wraps a:hover {
+ text-decoration:underline;
+}
+
+.my_press_articles_widget_seperator{
+ border:1px inset #41383C;
+ width:99%;
+ margin:3px auto 1px auto;
+}
+
+/* =css for quick note
+-------------------------------------------------------------- */
+.my_press_note {
+ width:90%;
+ padding-left:3%;
+ padding-right:3%;
+ padding-top:3%;
+ padding-bottom:3%;
+ margin:2%;
+ font-size:19px;
+ color:#000000;
+ background-color:yellow;
+ display:block;
+ float:left;
+}
+
+.my_press_note a {
+ color:blue;
+}
+
+/* =css for related posts
+-------------------------------------------------------------- */
+
+.my_press_articles_related_post_main_wraps {
+ width:433px;
+ height:200px;
+ background-color:#666633;
+ padding:5px 5px 5px 5px;
+ margin:3px auto 3px auto;
+ clear:both;
+}
+
+.my_press_articles_related_post_main_wraps:hover {
+ background-color:#000000;
+}
+
+.my_press_articles_related_post_main_wraps a {
+ text-decoration:none;
+ color:red;
+}
+
+.my_press_articles_related_post_sub_wraps {
+ float:left;
+ width:100px;
+ height:190px;
+ padding-top:3px;
+ padding-bottom:3px;
+ padding-left:3px;
+ padding-right:3px;
+ margin-left:2px;
+ background-color:#ffffff;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ overflow:hidden;
+}
+
+.my_press_articles_related_post_img_wraps {
+ width:100px;
+ height:100px;
+}
+
+.my_press_articles_related_post_text_wraps {
+ text-align:justify;
+ width:100px;
+ height:100px;
+ font-size:15px;
+ overflow:hidden;
+}
+
+.my_press_articles_related_post_text_wraps:hover {
+ text-decoration:underline;
+}
+
+/* =css for short code
+-------------------------------------------------------------- */
+
+.my-press-share-buttons-main {
+  margin-top:1px;
+  margin-bottom:1px;
+  width:100%;
+  float:left;
+  display:block;
+}
+
+.my-press-share-buttons {
+  padding:2px;
+  float:left;
+  margin-top:1px;
+}
+
+#mypressback-map-ground {
+  display:none;
+  position:fixed;
+  background-color:#ffffff;
+  opacity:0.9;
+  filter:alpha(opacity=30);
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+
+#mypress-panel {
+  display:none;
+  position:fixed;
+  top:25%;
+  left:33%;
+  color:#302217;
+  background-color:#ffffff;
+  padding:3px 3px 3px 3px;
+  z-index:1001;
+}
+
+#mypress-panel a#close-panel {
+  float:right;
+  text-decoration:none;
+  background-color:#ffffff;
+  color:#804000;
+}
