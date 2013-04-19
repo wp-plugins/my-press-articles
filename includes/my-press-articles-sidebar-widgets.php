@@ -117,4 +117,39 @@ function my_press_social_widget_display() {
    <?php
   }
  }
+
+//register facebook fanpage sidebar widget
+wp_register_sidebar_widget(
+    'my_press_facebookfan_widget',        	// unique widget id
+    'Facebook Fan Page',          		// widget name
+    'my_press_facebookfanpage_widget_display',  		// callback function
+    array(                  // options
+        'description' => 'Display Facebook Fan Page'
+    )
+);
+
+//callback function for my_press_facebookfan_widget
+function my_press_facebookfanpage_widget_display() {
+ // only shows on single post and homepage
+ if(is_single() || is_home()) {
+ ?>
+   <?php
+     $my_press_articles_options = get_option( 'my_press_articles_options' );
+     $fb_url  = $my_press_articles_options["facebook_fan_url"];
+     $fb_wid  = $my_press_articles_options["facebook_fan_width"];
+     $fb_ht  = $my_press_articles_options["facebook_fan_height"];
+
+     if( $fb_url ) {
+    ?>
+          <div class="my_press_facebook_fanpage_widgets_wraps">
+		    <div class="fb-like-box" data-href="<?php echo $fb_url; ?>"
+             data-width="<?php echo $fb_wid?$fb_wid:250; ?>" data-height="<?php echo $fb_ht? $fb_ht:250; ?>" data-show-faces="true" data-stream="true" data-header="true">
+            </div>
+          </div>
+    <?php
+     }?>
+    <hr class='my_press_articles_widget_seperator'/>
+   <?php
+  }
+ }
 ?>

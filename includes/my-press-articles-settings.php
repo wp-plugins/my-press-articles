@@ -47,6 +47,11 @@ function my_press_main_plugin_page() {
 					    	<textarea id="mpa_note" name="my_press_articles_options[note]" cols="60" rows="3"><?php echo esc_html( stripslashes( $my_press_articles_options["note"] ) ); ?></textarea>
 					    </td>
 				    </tr>
+                    <tr valign="top">
+					    <td>
+					    	<input type="text" name="my_press_articles_options[notecolor]" value="<?php echo $my_press_articles_options["notecolor"]; ?>" placeholder="yellow"/>
+					    </td>
+				    </tr>
                 </table>
                 <hr class="mypress" />
                 <h2 class="my_press_social_buttons" ></h2>
@@ -54,10 +59,37 @@ function my_press_main_plugin_page() {
                     <tr valign="top">
                         <td>
 				            <p class="option">
+                               Widget : <br/>
                                <input type="checkbox" name="my_press_articles_options[twitter]" value="1" <?php checked( '1', $my_press_articles_options["twitter"] ); ?> />   Twitter
                                <input type="checkbox" name="my_press_articles_options[facebook]" value="1" <?php checked( '1', $my_press_articles_options["facebook"] ); ?> />   Facebook
                                <input type="checkbox" name="my_press_articles_options[linkedIn]" value="1" <?php checked( '1', $my_press_articles_options["linkedIn"] ); ?> />    LinkedIn
                                <input type="checkbox" name="my_press_articles_options[google]" value="1" <?php checked( '1', $my_press_articles_options["google"] ); ?> />   Google+
+                            </p>
+                            <p>
+                             <p class="option">
+                               Share buttons in post content : <br/>
+                               <input type="checkbox" name="my_press_articles_options[social_top]" value="1" <?php checked( '1', $my_press_articles_options["social_top"] ); ?> />   Top
+                               <input type="checkbox" name="my_press_articles_options[social_bottom]" value="1" <?php checked( '1', $my_press_articles_options["social_bottom"] ); ?> />   Bottom
+                             </p>
+                            </p>
+                            <p>
+                             <p class="option">
+                               Facebook Fan Page : <br/>
+                               <input type="text" name="my_press_articles_options[facebook_fan_url]" value="<?php echo $my_press_articles_options["facebook_fan_url"]; ?>" placeholder="facebook fan page url"/>
+                               <input type="text" name="my_press_articles_options[facebook_fan_width]" value="<?php echo $my_press_articles_options["facebook_fan_width"]; ?>" placeholder="width"/>
+                               <input type="text" name="my_press_articles_options[facebook_fan_height]" value="<?php echo $my_press_articles_options["facebook_fan_height"]; ?>" placeholder="height"/>
+                             </p>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="mypress" />
+                <h2 class="my_press_comment_link" ></h2>
+                <table class="form-table">
+                    <tr valign="top">
+                        <td>
+				            <p class="option">
+                               <input type="checkbox" name="my_press_articles_options[comment_link]" value="1" <?php checked( '1', $my_press_articles_options["comment_link"] ); ?> />   No Website Link
                             </p>
                         </td>
                     </tr>
@@ -87,6 +119,16 @@ function my_press_main_plugin_page() {
                             <div class="my-press-share-buttons"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://wordpress.org/extend/plugins/my-press-articles/" send="false" layout="box_count" width="53" show_faces="false" font="verdana"></fb:like></div>
                             <div class="my-press-share-buttons"><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
                                 <script type="IN/Share" data-url="http://wordpress.org/extend/plugins/my-press-articles/" data-counter="top"></script>
+                            </div>
+                            <div class="my-press-share-buttons">
+                                <su:badge layout="5" location="http://wordpress.org/extend/plugins/my-press-articles/"></su:badge>
+                                <script type="text/javascript">
+                                    (function() {
+                                        var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+                                        li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+                                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+                                     })();
+                                </script>
                             </div>
                             <div class="my-press-share-buttons"><a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-url="http://wordpress.org/extend/plugins/my-press-articles/">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
                         </td>

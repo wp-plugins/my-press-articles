@@ -4,14 +4,14 @@ Donate link: http://todayprofits.gadgets-code.com/donation-page/
 Tags: post, plugin, posts, admin, content, LinkedIn, twitter, sidebar, widget, shortcode, Google+, Facebook, google, links, related post, social button, social buttons, social media widget, google map, sticky post, google analytics, note 
 Requires at least: 2.8
 Tested up to: 3.5
-Stable tag: 1.7
+Stable tag: 1.8
 License: GPLv2
 
 my press articles is a all in one wordpress plugin which includes insert related posts, sticky post widget, social media widget, google map, google analytics and many more.
 
 == Description ==
 
-Current features include 1) Google Analytics 2) Related Posts 3) Sticky Posts Widget 4) Social Media Widget 5) Google Map. More features will be added from time to time.
+Current features include 1) Google Analytics 2) Related Posts 3) Sticky Posts Widget 4) Social Media Widget and buttons in post content 5) Google Map 6) Facebook Fan Page. More features will be added from time to time.
 
 == Frequently Asked Questions == 
 
@@ -24,6 +24,10 @@ Follow the tutorial carefully and you will master how to use it within minutes.
 1) Upload my press articles to your blog and activate it.
 
 == Changelog ==
+
+= 1.8 =
+
+* Include Facebook fan page embed in the sidebar of your blog and social buttons in post content
 
 = 1.7 =
 
