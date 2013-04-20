@@ -2,6 +2,52 @@
 add_action( 'wp_head', 'my_press_articles_ga_outbound' );
 add_action( 'wp_head', 'my_press_articles_ga' );
 add_action('wp_head', 'my_press_articles_share_button_code');
+add_action('admin_init', 'my_press_articles_includes_scripts_styles');
+add_action( 'login_enqueue_scripts', 'my_press_articles_login_img' );
+
+//display custom make style sheet for login form
+function my_press_articles_login_img() {
+   $my_press_articles_options = get_option( 'my_press_articles_options' );
+   $login_bg_color =  $my_press_articles_options['login_bg_color'];
+   $login_header_img = $my_press_articles_options['login_header_img'];
+   $login_form_img = $my_press_articles_options['login_form_img'];
+   $login_customize = $my_press_articles_options['login_customize'];
+   if($login_customize == 1) {
+?>
+    <style type="text/css">
+        body.login {
+           background-color:<?php echo $login_bg_color; ?>
+        }
+        body.login div#login h1 a {
+            background-image: url(<?php echo $login_header_img ?>);
+        }
+        body.login div#login form#loginform {
+            background-image: url(<?php echo $login_form_img ?>);
+        }
+    </style>
+<?php
+   }
+}
+
+//include script and styles for creating customize login form at option page
+function my_press_articles_includes_scripts_styles() {
+    if (isset($_GET['page']) && $_GET['page'] == 'my_press_main_menu') {
+        add_action('admin_print_scripts', 'my_press_articles_login_admin_scripts');
+        add_action('admin_print_styles', 'my_press_articles_login_admin_styles');
+    }
+
+}
+
+function my_press_articles_login_admin_scripts() {
+    wp_enqueue_script('media-upload');
+    wp_enqueue_script('thickbox');
+    wp_register_script('login-form-images-upload', WP_PLUGIN_URL.'/my-press-articles/js/login-form-images-upload.js', array('jquery','media-upload','thickbox'));
+    wp_enqueue_script('login-form-images-upload');
+}
+
+function my_press_articles_login_admin_styles() {
+    wp_enqueue_style('thickbox');
+}
 
 //include social buttons code in header
 function my_press_articles_share_button_code() {

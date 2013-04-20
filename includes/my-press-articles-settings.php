@@ -23,10 +23,36 @@ function my_press_main_plugin_page() {
     <h2 class="my_press_header_setting"></h2>
     <div class="main_mypress">
 	    <div class="left_mypress">
-		    <h2 class="my_press_analytic"></h2>
 		    <form method="post" action="options.php">
 			    <?php settings_fields( 'my-press-articles-settings-group' ); ?>
 			    <?php $my_press_articles_options = get_option( 'my_press_articles_options' ); ?>
+                <h2 class="my_press_login"></h2>
+			    <table class="form-table">
+                    <tr valign="top">
+					    <td>
+					    	<input id="my_press_articles_options[login_bg_color]" type="color" name="my_press_articles_options[login_bg_color]" value="<?php echo $my_press_articles_options['login_bg_color']; ?>" /> Background Color
+                        </td>
+				    </tr>
+				    <tr valign="top">
+					    <td>
+					    	<input id="my_press_articles_options[login_header_img]" type="url" name="my_press_articles_options[login_header_img]" value="<?php echo $my_press_articles_options['login_header_img']; ?>" />
+                            <input id="upload_login_header_image_button" type="button" class="upload_login_header_image_button" value="Login Header Image" />
+                        </td>
+				    </tr>
+                    <tr valign="top">
+					    <td>
+					    	<input id="my_press_articles_options[login_form_img]" type="url" name="my_press_articles_options[login_form_img]" value="<?php echo $my_press_articles_options['login_form_img']; ?>" />
+                            <input id="upload_login_form_image_button" type="button" class="upload_login_form_image_button" value="Login Form Image" />
+                        </td>
+				    </tr>
+                    <tr valign="top">
+                        <td>
+                            <p class="option"><input type="checkbox" name="my_press_articles_options[login_customize]" value="1" <?php checked( '1', $my_press_articles_options["login_customize"] ); ?> />   Use this login theme</p>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="mypress" />
+                <h2 class="my_press_analytic"></h2>
 			    <table class="form-table">
 				    <tr valign="top">
 					    <td>
@@ -49,7 +75,7 @@ function my_press_main_plugin_page() {
 				    </tr>
                     <tr valign="top">
 					    <td>
-					    	<input type="text" name="my_press_articles_options[notecolor]" value="<?php echo $my_press_articles_options["notecolor"]; ?>" placeholder="yellow"/>
+					    	<input type="color" name="my_press_articles_options[notecolor]" value="<?php echo $my_press_articles_options["notecolor"]; ?>" /> Background Color
 					    </td>
 				    </tr>
                 </table>

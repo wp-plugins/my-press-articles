@@ -15,6 +15,23 @@
  color:red;
 }
 
+.my_press_login {
+ width:200px;
+ height : 53px;
+ margin-top:0;
+ margin-bottom:0;
+ background-image:url('mypresslogins.png');
+ background-repeat:no-repeat;
+}
+
+.upload_login_header_image_button, .upload_login_form_image_button {
+ background-color:#000000;
+ color:#ffffff;
+ text-decoration:bold;
+ padding:3px;
+ cursor:pointer;
+}
+
 .my_press_analytic {
  width:300px;
  height : 53px;
