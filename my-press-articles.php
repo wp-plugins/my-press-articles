@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: my press articles
-Plugin URI: http://onmouseenter.com/category/my-press-articles-plugin/
+Plugin URI: http://wordpress.org/support/view/plugin-reviews/my-press-articles/
 Description: my press articles is a all in one wordpress plugin which includes insert related posts, sticky post widget, social media widget, google map, google analytics and many more.
-Version: 1.9
+Version: 2.0
 Author: Gadgets Choose
-Author URI: http://wordpress.org/support/view/plugin-reviews/my-press-articles/
+Author URI: http://onmouseenter.com/category/my-press-articles-plugin/
 License: GPLv2
 */
 
-/* Copyright 2012 Gadgets-Code.Com (e-mail : morning131@hotmail.com)
+/* Copyright 2013 Gadgets-Code.Com (e-mail : morning131@hotmail.com)
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or
@@ -33,7 +33,7 @@ include_once('includes/my-press-articles-short-codes.php');
 include_once('includes/my-press-articles-register-tinymce-short-code-buttons.php');
 include_once('includes/my-press-articles-show-note.php');
 
-wp_register_style('myPressArticlesStyleSheet', plugins_url( 'css/my-press-articles-style.css' , __FILE__ ), array(), '130', 'all' );
+wp_register_style('myPressArticlesStyleSheet', plugins_url( 'css/my-press-articles-style.css' , __FILE__ ), array(), '155', 'all' );
 wp_enqueue_style( 'myPressArticlesStyleSheet');
 wp_enqueue_script( 'jquery');
 ?>

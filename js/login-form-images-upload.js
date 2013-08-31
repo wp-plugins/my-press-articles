@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
 
         var formfield = '';
+	var imgurl ='';
  
 	jQuery('#upload_login_header_image_button, #upload_login_form_image_button').click(function() {
 
@@ -11,7 +12,7 @@ jQuery(document).ready(function() {
 
                 
 	window.send_to_editor = function(html) {
- 		imgurl = jQuery('img',html).attr('src');
+ 		imgurl = jQuery('img', html).attr('src');
  		formfield.val(imgurl);
                 tb_remove();
                         

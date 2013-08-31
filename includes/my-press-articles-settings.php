@@ -20,13 +20,13 @@ function my_press_articles_register_settings() {
 //menu page function callback
 function my_press_main_plugin_page() {
 ?>
-    <h2 class="my_press_header_setting"></h2>
+    <div class="my_press_articles_settings_header"><div class="my_press_header_icon"></div><div class="my_press_header_text">My Press Articles Setting Page</div></div>
     <div class="main_mypress">
 	    <div class="left_mypress">
 		    <form method="post" action="options.php">
 			    <?php settings_fields( 'my-press-articles-settings-group' ); ?>
 			    <?php $my_press_articles_options = get_option( 'my_press_articles_options' ); ?>
-                <h2 class="my_press_login"></h2>
+                <h2 class="my_press_login">Login Page Setting</h2>
 			    <table class="form-table">
                     <tr valign="top">
 					    <td>
@@ -36,13 +36,13 @@ function my_press_main_plugin_page() {
 				    <tr valign="top">
 					    <td>
 					    	<input id="my_press_articles_options[login_header_img]" type="url" name="my_press_articles_options[login_header_img]" value="<?php echo $my_press_articles_options['login_header_img']; ?>" />
-                            <input id="upload_login_header_image_button" type="button" class="upload_login_header_image_button" value="Login Header Image" />
+                            <input id="upload_login_header_image_button" type="button" class="button-primary" value="Upload Header" />
                         </td>
 				    </tr>
                     <tr valign="top">
 					    <td>
 					    	<input id="my_press_articles_options[login_form_img]" type="url" name="my_press_articles_options[login_form_img]" value="<?php echo $my_press_articles_options['login_form_img']; ?>" />
-                            <input id="upload_login_form_image_button" type="button" class="upload_login_form_image_button" value="Login Form Image" />
+                            <input id="upload_login_form_image_button" type="button" class="button-primary" value="Upload Form Image" />
                         </td>
 				    </tr>
                     <tr valign="top">
@@ -52,7 +52,7 @@ function my_press_main_plugin_page() {
                     </tr>
                 </table>
                 <hr class="mypress" />
-                <h2 class="my_press_analytic"></h2>
+                <h2 class="my_press_analytic">Analytic Code</h2>
 			    <table class="form-table">
 				    <tr valign="top">
 					    <td>
@@ -66,7 +66,7 @@ function my_press_main_plugin_page() {
                     </tr>
                 </table>
                 <hr class="mypress" />
-                <h2 class="my_press_quick_note" ></h2>
+                <h2 class="my_press_quick_note" >Bottom Note</h2>
                 <table class="form-table">
 				    <tr valign="top">
 					    <td>
@@ -80,7 +80,7 @@ function my_press_main_plugin_page() {
 				    </tr>
                 </table>
                 <hr class="mypress" />
-                <h2 class="my_press_social_buttons" ></h2>
+                <h2 class="my_press_social_buttons" >Sharing Buttons</h2>
                 <table class="form-table">
                     <tr valign="top">
                         <td>
@@ -110,7 +110,7 @@ function my_press_main_plugin_page() {
                     </tr>
                 </table>
                 <hr class="mypress" />
-                <h2 class="my_press_comment_link" ></h2>
+                <h2 class="my_press_comment_link" >Remove Comment Links</h2>
                 <table class="form-table">
                     <tr valign="top">
                         <td>
@@ -121,7 +121,7 @@ function my_press_main_plugin_page() {
                     </tr>
                 </table>
 		        <hr class="mypress" />
-                <h2 class="my_press_relatred_posts_feature"></h2>
+                <h2 class="my_press_relatred_posts_feature">Related and Feature Posts</h2>
                 <table class="form-table">
                     <tr valign="top">
                         <td>
@@ -130,6 +130,11 @@ function my_press_main_plugin_page() {
                             </p>
                         </td>
                     </tr>
+                    <tr valign="top">
+					    <td>
+					    	<input type="color" name="my_press_articles_options[featurepost_color]" value="<?php echo $my_press_articles_options['featurepost_color']; ?>" /> Feature Post Text Color
+                        </td>
+				    </tr>
                 </table>
                 <hr class="mypress" />
                 <p class="submit">
@@ -138,7 +143,7 @@ function my_press_main_plugin_page() {
             </form>
 	    </div>
         <div class="right_mypress">
-            <h2 class="my_press_articles_share_plugins"></h2>
+            <h2 class="my_press_articles_share_plugins">Sharing</h2>
             <table class="form-table">
                     <tr valign="top">
                         <td>
@@ -168,7 +173,7 @@ function my_press_main_plugin_page() {
                     </tr>
             </table>
             <hr class="mypress" />
-            <h2 class="my_press_articles_help"></h2>
+            <h2 class="my_press_articles_help">Forum and Help</h2>
             <table class="form-table">
                     <tr valign="top">
                         <td>
@@ -181,7 +186,7 @@ function my_press_main_plugin_page() {
                     </tr>
             </table>
             <hr class="mypress" />
-            <h2 class="my_press_recommend"></h2>
+            <h2 class="my_press_recommend">Recommend Plugin</h2>
             <table class="form-table">
                     <tr valign="top">
                         <td>

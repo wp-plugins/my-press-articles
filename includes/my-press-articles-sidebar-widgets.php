@@ -15,6 +15,7 @@ function my_press_sticky_posts_widget_display() {
  // only shows on single post and homepage
  if( is_single() || is_home() ) {
 
+  $my_press_articles_options = get_option( 'my_press_articles_options' );
   $args = array(
    'posts_per_page' => 10,
    'post__in' => get_option('sticky_posts'),
@@ -22,10 +23,9 @@ function my_press_sticky_posts_widget_display() {
   );
   query_posts( $args );
   if ( have_posts() ) :
-   echo "<h3 class=\"my_press_articles_sticky_widgets_header\"></h3>";
+   echo "<h3 class=\"my_press_articles_sticky_widgets_header\">Feature Post</h3>";
    while ( have_posts() ) : the_post();
-     echo "<div id='my_press_articles_sticky_posts_widget' class='widget my_press_articles_sticky_posts_widget'>
-          <h3 class='my_press_articles_sticky_posts_header'></h3>";
+     echo "<div id='my_press_articles_sticky_posts_widget' class='widget my_press_articles_sticky_posts_widget'>";
     ?>
    <div class="my_press_articles_sticky_posts_img_wraps">
         <?php
@@ -43,14 +43,14 @@ function my_press_sticky_posts_widget_display() {
          ?>
     </div>
     <div class="my_press_articles_sticky_posts_text_wraps">
-        <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title() ?></a>
+        <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" style="color:<?php echo $my_press_articles_options['featurepost_color']?>;"><?php the_title() ?></a>
     </div>
  <?php
-     echo "</div><hr class='my_press_articles_widget_seperator'/>";
+     echo "</div>";
    endwhile;
-
-   endif;
-   wp_reset_query();
+     echo "<hr class='my_press_articles_widget_seperator'/>";
+ endif;
+ wp_reset_query();
  }
 }
 

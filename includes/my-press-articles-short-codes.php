@@ -1,5 +1,4 @@
 <?php
-
 //short code to change text color
 function textcolor($atts, $content = null) {
 
@@ -11,7 +10,7 @@ function textcolor($atts, $content = null) {
 add_shortcode("textcolor","textcolor");
 
 //short code to render social sharing buttons
-function shareB() {
+function shareB($atts, $content = null) {
 
    return '<div class="my-press-share-buttons-main"><div class="my-press-share-buttons"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="" send="false" layout="box_count" width="53" show_faces="false" font="verdana"></fb:like></div>'.
 '<div class="my-press-share-buttons"><g:plusone size="tall"></g:plusone></div>'.'<div class="my-press-share-buttons"><script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script></div>'.
