@@ -1,17 +1,17 @@
 === my press articles ===
 Contributors: Gadgets Choose
 Donate link: http://todayprofits.gadgets-code.com/donation-page/
-Tags: post, plugin, posts, category, admin, content, LinkedIn, twitter, sidebar, widget, shortcode, Google+, Facebook, google, links, related post, social button, social buttons, social media widget, google map, sticky post, google analytics, note, wordpress login form 
+Tags: shortcode, post, plugin, posts, category, admin, content, LinkedIn, twitter, sidebar, widget, shortcode, Google+, Facebook, google, links, related post, social button, social buttons, social media widget, google map, sticky post, google analytics, note, wordpress login form 
 Requires at least: 2.8
-Tested up to: 3.6
-Stable tag: 2.0
+Tested up to: 3.8
+Stable tag: 2.1
 License: GPLv2
 
-my press articles is a all in one wordpress plugin which includes customize feature for wordpress login form, related posts feature, sticky post widget, social media widget, google map, google analytics and many more.
+my press articles is a all in one wordpress plugin which includes database optimization feature (new), customize feature for wordpress login form, related posts feature, sticky post widget, social media widget, google map, google analytics and many more. 
 
 == Description ==
 
-Current features include 1) Google Analytics 2) Related Posts 3) Sticky Posts Widget 4) Social Media Widget and buttons in post content 5) Google Map 6) Facebook Fan Page 7) Customize feature for wordpress login form. More features will be added from time to time.
+Current features include 1) Google Analytics 2) Related Posts 3) Sticky Posts Widget 4) Social Media Widget and buttons in post content 5) Google Map with shortcode 6) Facebook Fan Page 7) Customize feature for wordpress login form. 8) Database optimization
 
 == Frequently Asked Questions == 
 
@@ -21,9 +21,13 @@ Follow the tutorial carefully and you will master how to use it within minutes.
 
 == Installation ==
 
-1) Upload my press articles to your blog and activate it.
+1) Download my press articles to your blog and activated it.
 
 == Changelog ==
+
+= 2.1 =
+
+* Database optimization feature
 
 = 2.0 =
 

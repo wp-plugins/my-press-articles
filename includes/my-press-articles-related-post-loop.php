@@ -1,5 +1,5 @@
 <?php
-add_filter( 'the_content', 'display_related_posts' );
+add_filter( 'the_content', 'display_related_posts', 1 );
 
 function display_related_posts($content){
       global $post;

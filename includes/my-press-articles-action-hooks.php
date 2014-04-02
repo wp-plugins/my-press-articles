@@ -8,7 +8,7 @@ add_action( 'login_enqueue_scripts', 'my_press_articles_login_img' );
 //display custom make style sheet for login form
 function my_press_articles_login_img() {
    $my_press_articles_options = get_option( 'my_press_articles_options' );
-   $login_bg_color =  $my_press_articles_options['login_bg_color'];
+   $login_bg_img =  $my_press_articles_options['login_bg_img'];
    $login_header_img = $my_press_articles_options['login_header_img'];
    $login_form_img = $my_press_articles_options['login_form_img'];
    $login_customize = $my_press_articles_options['login_customize'];
@@ -16,13 +16,13 @@ function my_press_articles_login_img() {
 ?>
     <style type="text/css">
         body.login {
-           background-color:<?php echo $login_bg_color; ?>
+           background-image: url(<?php echo $login_bg_img; ?>);
         }
         body.login div#login h1 a {
-            background-image: url(<?php echo $login_header_img ?>);
+           background-image: url(<?php echo $login_header_img ?>);
         }
         body.login div#login form#loginform {
-            background-image: url(<?php echo $login_form_img ?>);
+           background-image: url(<?php echo $login_form_img ?>);
         }
     </style>
 <?php

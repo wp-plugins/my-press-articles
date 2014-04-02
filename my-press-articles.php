@@ -3,9 +3,9 @@
 Plugin Name: my press articles
 Plugin URI: http://wordpress.org/support/view/plugin-reviews/my-press-articles/
 Description: my press articles is a all in one wordpress plugin which includes insert related posts, sticky post widget, social media widget, google map, google analytics and many more.
-Version: 2.0
+Version: 2.1
 Author: Gadgets Choose
-Author URI: http://onmouseenter.com/category/my-press-articles-plugin/
+Author URI: http://onmouseenter.com/insert-google-map-wordpress-blog/
 License: GPLv2
 */
 
@@ -32,8 +32,20 @@ include_once('includes/my-press-articles-related-post-loop.php');
 include_once('includes/my-press-articles-short-codes.php');
 include_once('includes/my-press-articles-register-tinymce-short-code-buttons.php');
 include_once('includes/my-press-articles-show-note.php');
+include_once('includes/my_press_clean_it_up_create_main_menu.inc.php');
 
-wp_register_style('myPressArticlesStyleSheet', plugins_url( 'css/my-press-articles-style.css' , __FILE__ ), array(), '155', 'all' );
+wp_register_style('myPressArticlesStyleSheet', plugins_url( 'css/my-press-articles-style.css' , __FILE__ ), array(), '156', 'all' );
 wp_enqueue_style( 'myPressArticlesStyleSheet');
-wp_enqueue_script( 'jquery');
+
+add_filter('plugin_action_links', 'my_press_articles_plugin_settings_link', 10, 2);
+function my_press_articles_plugin_settings_link($links, $file) {
+
+    if ( $file == 'my-press-articles/my-press-articles.php' ) {
+        /* Insert the setting link */
+        $links['tut'] = sprintf( '<a href="%s">%s</a>', 'http://onmouseenter.com/insert-google-map-wordpress-blog/', __( 'Tutorial', 'my_press_articles' ) );
+        
+    }
+    return $links;
+
+}
 ?>

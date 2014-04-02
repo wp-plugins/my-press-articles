@@ -48,7 +48,6 @@ function my_press_sticky_posts_widget_display() {
  <?php
      echo "</div>";
    endwhile;
-     echo "<hr class='my_press_articles_widget_seperator'/>";
  endif;
  wp_reset_query();
  }
