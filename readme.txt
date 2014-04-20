@@ -3,8 +3,8 @@ Contributors: Gadgets Choose
 Donate link: http://todayprofits.gadgets-code.com/donation-page/
 Tags: post, plugin, posts, category, admin, content, LinkedIn, twitter, sidebar, widget, shortcode, Google+, Facebook, google, links, related post, social button, social buttons, social media widget, google map, sticky post, google analytics, note, wordpress login form 
 Requires at least: 2.8
-Tested up to: 3.8
-Stable tag: 2.2
+Tested up to: 3.9
+Stable tag: 2.3
 License: GPLv2
 
 my press articles is a all in one wordpress plugin which includes database optimization feature (new), customize feature for wordpress login form, related posts feature, sticky post widget, social media widget, google map, google analytics and many more. 
@@ -24,6 +24,10 @@ Follow the tutorial carefully and you will master how to use it within minutes.
 1) Download my press articles to your blog and activated it.
 
 == Changelog ==
+
+= 2.3 =
+
+* Updated wordpress to version 3.9
 
 = 2.2 =
 

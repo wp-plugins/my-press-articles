@@ -3,7 +3,7 @@
 Plugin Name: my press articles
 Plugin URI: http://wordpress.org/support/view/plugin-reviews/my-press-articles/
 Description: my press articles is a all in one wordpress plugin which includes insert related posts, sticky post widget, social media widget, google map, google analytics and many more.
-Version: 2.2
+Version: 2.3
 Author: Gadgets Choose
 Author URI: http://onmouseenter.com/insert-google-map-wordpress-blog/
 License: GPLv2
